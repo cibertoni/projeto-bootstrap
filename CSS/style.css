@@ -1,0 +1,30 @@
+header .navbar {
+    background-color: darkorchid;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    /*inserir sombra no header - X, Y e blur*/
+}
+
+.navbar ul li a {
+    color: whitesmoke;
+    /*tirar o azul das letras do menu*/
+    text-transform: uppercase;
+    /*tirar o sublinhado das letras do menu*/
+    font-weight: bold;
+}
+
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    color: rgb(245, 153, 207);
+    font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+    /*chamar o botão de menu e mudar a cor dele quando diminui a tela*/
+    background-color: white;
+}
+
+.btn.btn-primary {
+    /*como são classes do mesmo elemento, elas ficam juntas e não separadas por espaços - mudar a cor e a borda*/
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
