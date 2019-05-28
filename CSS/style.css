@@ -28,3 +28,11 @@ header .navbar {
     background-color: blueviolet;
     border-color: blueviolet;
 }
+
+.carousel .item {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    /*imagem cobrir 100% do elemento - div*/
+    background-position: center;
+}
